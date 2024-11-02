@@ -1,0 +1,217 @@
+.project-info-box-not-hovered {
+    margin: 5px;
+    height: 55vh;
+    width: 40vw;
+    background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728887591/netflixBg.jpg);
+    background-size: max(620px, 42.5vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition-duration: .3s;
+    z-index: 99;
+}
+
+.project-info-box-hovered {
+    margin: 5px;
+    height: 55vh;
+    width: 40vw;
+    background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728906228/netflixBgWithoutText.jpg);
+    /* background: content-box radial-gradient(rgb(14, 14, 14),transparent); */
+    /* background: linear-gradient(to right,#8E0E00, #1F1C18,#8E0E00); */
+    background-size: max(620px, 42.5vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 10px solid red;
+    border-image: linear-gradient(to right, #1b2a56 0%, #0c1234,rgb(242, 106, 106) 100%) 1;
+    transition-duration: .3s;
+    z-index: 99;
+}
+
+.project-info-box-text-hidden {
+    opacity: 0;
+}
+
+.project-info-box-text {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+    position: top;
+    top: 30px;
+}
+
+.project-info-text-title {
+    margin: 35px;
+    font-size: 48px;
+}
+
+.project-info-text-description {
+    font-size: 24px;
+}
+
+.view-source-code {
+    position: relative;
+    padding: 5px;
+    margin: 20px;
+}
+
+button{
+    margin: 10px;
+    color: white;
+    background-color: green;
+}
+
+@media screen and (max-width:900px) {
+
+    .project-info-box-hovered{
+        margin: 5px;
+        height: 55vh;
+        width: 95vw;
+        background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728906228/netflixBgWithoutText.jpg);
+        background-size: max(620px, 45.5vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition-duration: .3s;
+        z-index: 99;
+        border: none;
+
+    }
+
+    .project-info-box-not-hovered{
+        margin: 5px;
+        height: 55vh;
+        width: 95vw;
+        background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728906228/netflixBgWithoutText.jpg);
+        background-size: max(620px, 45.5vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition-duration: .3s;
+        z-index: 99;
+    }
+    .project-info-box-text-hidden{
+        
+            color: white;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 99;
+            position: top;
+            top: 30px;
+            /* opacity: 1; */
+        
+    }
+
+    .project-info-box-text {
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 99;
+        position: top;
+        top: 30px;
+    }
+    
+    .project-info-text-title {
+        margin: 35px;
+        font-size: 36px;
+    }
+    
+    .project-info-text-description {
+        font-size: 18px;
+    }
+    
+     .view-source-code {
+        position: relative;
+        padding: 5px;
+        margin: 20px;
+    }
+    
+    .text button{
+        margin: 10px;
+        color: white;
+        background-color: green;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 900px) 
+and (max-device-width : 1300px) {
+
+    .project-info-box-hovered{
+        margin: 5px;
+        height: 55vh;
+        width: 45vw;
+        background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728906228/netflixBgWithoutText.jpg);
+        background-size: max(620px, 45.5vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition-duration: .3s;
+        z-index: 99;
+
+    }
+    .project-info-box-hovered{
+      border: none;
+    }
+
+    .project-info-box-not-hovered{
+        margin: 5px;
+        height: 55vh;
+        width: 45vw;
+        background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728906228/netflixBgWithoutText.jpg);
+        background-size: max(620px, 45.5vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition-duration: .3s;
+        z-index: 99;
+    }
+    .project-info-box-text-hidden{
+        
+            color: white;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 99;
+            position: top;
+            top: 30px;
+            opacity: 0;
+        
+    }
+
+
+    .project-info-box-text {
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 99;
+        position: top;
+        top: 30px;
+    }
+    
+    .project-info-text-title {
+        margin: 35px;
+        font-size: 36px;
+    }
+    
+    .project-info-text-description {
+        font-size: 18px;
+    }
+    
+     .view-source-code {
+        position: relative;
+        padding: 5px;
+        margin: 20px;
+    }
+    
+    .text button{
+        margin: 10px;
+        color: white;
+        background-color: green;
+    }
+}

@@ -1,0 +1,120 @@
+.card{
+    position: relative;
+    width: 20rem;
+    height: 17rem;
+    /* overflow: visible; */
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 23px;
+}
+
+.Project1{
+
+    background-image:radial-gradient(circle at 50% 100%, #054244, #021d1e);
+}
+.Project1:hover{
+    background-image:url("https://www.jonathanpatterson.com/images/line-tile.svg"), radial-gradient(circle at 50% 100%, #054244, #021d1e);
+}
+
+.logo-div{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 25%;
+    top: 25%;
+
+}
+.logo{
+    display: flex;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    left: 30%;
+    top: 20%;
+}
+
+.institute-name{
+
+        display: block;
+        position: relative;
+        position: absolute;
+        color: white;
+        position: absolute;
+        max-width: 80%;
+        margin: 0px auto;
+        display: block;
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: center;
+        top: 50%;
+}
+
+
+
+.my-education-box-hovered .logo{
+  opacity: .1;
+}
+
+.my-education-box-not-hovered .institute-info{
+    color: white;
+    position: absolute;
+    max-width: 80%;
+    text-align: center;
+    top: 83px;
+    left: 28px;
+    opacity: 0;
+  }
+
+.my-education-box-hovered .institute-info{
+    color: white;
+    position: absolute;
+    max-width: 80%;
+    text-align: center;
+    top: 83px;
+    left: 28px;
+  }
+
+.my-education-box-not-hovered h4{
+    display: inline;
+    position: relative;
+    font-family: Syne, sans-serif;
+    transform: translate(10px,-69px);
+    transition-duration: 1s;
+    color: aliceblue;
+    z-index: 1;
+    left: 10px;
+    top: 72px;
+}
+
+
+p{
+    position: relative;
+    font-family: Syne, sans-serif;
+    left: 10px;
+    color: aliceblue;
+    z-index: 1;
+}
+
+hr{
+    position: relative;
+    max-width: 93%;
+    margin: auto;
+    margin: 6px;
+}
+.p-text{
+    display: inline;
+    position: absolute;
+    font-family: Syne, sans-serif;
+    width: 100%;
+    top: 227px;
+    left: 3px;
+    color: aliceblue;
+}

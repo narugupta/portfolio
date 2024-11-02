@@ -1,0 +1,76 @@
+.my-skills{
+    position: relative;
+    background-color: rgb(20, 39, 39);
+    padding-bottom: 0.1px;
+    /* font-family: "Baloo Bhai 2", sans-serif; */
+}
+
+.my-skill-box{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    margin: 20px;
+    color: white;
+
+}
+.my-skill-heading{
+    color: white;
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -50px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-weight: 600;
+}
+.skill-text{
+    position: relative;
+    display: flex;
+    max-width: 30vw;
+    margin: auto;
+    flex-direction: column;
+}
+.skill-text-about-me{
+    font-size: 24px;
+    text-align: left;
+    max-width: 30vw;
+    margin-bottom: 20px;
+}
+
+.skill-graph-container{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:900px) {
+    .my-skill-box{
+        height: 80vh;
+      margin: 0px;
+    }
+
+    .my-skill-heading{
+     font-size: 30px;
+     margin-bottom: -125px;
+    }
+    .skill-text{
+     position: relative;
+     max-width: 45vw;
+    }
+
+    .skill-text-about-me{
+     font-size: 16px;
+    }
+    .skill-text-description{
+        font-size: 12px;
+    }
+    .skill-graph-container{
+        position: relative;
+        max-width: 50vw;
+    }
+}

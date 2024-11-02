@@ -1,0 +1,169 @@
+
+header {
+    background-image: url(https://freerangestock.com/sample/140798/wood-background--brown-color--wooden-background.jpg);
+    background-size: max(1550px, 100vw);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+.hidden-in-phone{
+  font-family: "Baloo Bhai 2", sans-serif;
+}
+.my-choice-bg{
+    position: sticky;
+    top: 0;
+}
+div.bg-img {
+
+    background-color: black;
+    position: absolute;
+    opacity: .69;
+    height: 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+.introduction{
+    position: relative;
+    z-index: 99;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.my-name{
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+.introduction .text{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Baloo Bhai 2", sans-serif;
+    top: 34px;
+}
+
+.introduction .more-about-me{
+    color: white;
+    font-size: 24px;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+.introduction .my-photo{
+    position: relative;
+    /* z-index: 1888; */
+    padding: 85px 0 0 0;
+    z-index: 10000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.introduction .my-photo img{
+  position: relative;
+  z-index:199;
+    width: 20vw;
+    border-radius: 15px;
+}
+
+.header-social-media{
+  position: relative;
+  margin: 10px;
+  left: -12px;
+}
+.header-social-media img{
+  margin: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 3vw;
+}
+
+.header-social-media a{
+  position: relative;
+  padding-top: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width:500px) {
+    .introduction .text{
+        max-width: 85vw;
+        transform: translateY(155px);
+      }
+  
+    .my-name{
+    max-width: 95vw;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 18px;
+    font-size: 26px;
+  }
+
+  .introduction{
+    margin: 5;
+    height: 65vh;
+    align-items: center;
+  }
+
+  .introduction .my-photo{
+    margin: 22px;
+    position: absolute;
+    top: -85px;
+  }
+  .introduction .my-photo img{
+      width: 35vw;
+  }
+
+  .text .more-about-me{
+    font-size: 18px;
+  }
+  .hidden-in-phone{
+    position: absolute;
+    opacity: 0;
+  }
+}
+
+@media only screen 
+and (min-device-width : 500px) 
+and (max-device-width : 1200px) {
+
+    .introduction .text{
+        max-width: 75vw;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+      }
+  
+    .my-name{
+    max-width: 95vw;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 18px;
+    font-size: 26px;
+  }
+
+  .introduction{
+    margin: 5;
+    height: 65vh;
+    align-items: center;
+  }
+
+  .introduction .my-photo{
+    margin: 22px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .text .more-about-me{
+    font-size: 18px;
+  }
+}
+
+
+

@@ -1,0 +1,44 @@
+
+.skill-graph{
+    color: white;
+    width: 45vw;
+    margin: 10px;
+}
+.my-container{
+    position: relative;
+    height: 7px;
+    background-color: grey;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+.my-container-colored{
+    position: relative;
+    height: 7px;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+.skill-percentage{
+    display: inline-block;
+    position: relative;
+    /* left: 80%;   */
+}
+
+@media screen and (max-width:900px) {
+
+    .skill-graph{
+        font-size: 12px;
+        margin: 5px;
+    }
+    .my-container{
+        height: 3px;
+    }
+    
+    .my-container-colored{
+        height: 3px;
+    }
+    .skill-percentage{
+      font-size: 10px;
+    }
+
+}

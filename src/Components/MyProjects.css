@@ -1,0 +1,31 @@
+.my-projects{
+   background-color: #18172c;
+   position: relative;
+}
+
+.my-project-text{
+   display: flex;
+   color: white;
+   font-size: 40px;
+   justify-content: center;
+   margin-bottom: 10px;
+   padding-top: 20px;
+   font-family: "Baloo Bhai 2", sans-serif;
+   font-weight: 600;
+}
+
+@media screen and (max-width:900px) {
+    .firstRow{
+    /* margin: 0; */
+    /* margin-bottom: 0px; */
+    /* margin-top: 0px; */
+ }
+ .firstColumn{
+   margin-bottom: -46px;
+   /* margin-top: 0px; */
+    /* margin: 0; */
+ }
+.my-project-text{
+   font-size: 30px;
+}
+}
