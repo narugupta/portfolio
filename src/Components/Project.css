@@ -3,7 +3,8 @@
     height: 55vh;
     width: 40vw;
     background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728887591/netflixBg.jpg);
-    background-size: max(620px, 42.5vw);
+    background-size: max(710px, 42.5vw);
+    /* background-size: 650px; */
     background-position: center center;
     background-repeat: no-repeat;
     transition-duration: .3s;
@@ -17,11 +18,11 @@
     background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728906228/netflixBgWithoutText.jpg);
     /* background: content-box radial-gradient(rgb(14, 14, 14),transparent); */
     /* background: linear-gradient(to right,#8E0E00, #1F1C18,#8E0E00); */
-    background-size: max(620px, 42.5vw);
+    background-size: max(710px, 42.5vw);
     background-position: center center;
     background-repeat: no-repeat;
-    border: 10px solid red;
-    border-image: linear-gradient(to right, #1b2a56 0%, #0c1234,rgb(242, 106, 106) 100%) 1;
+    border: 9px solid red;
+    border-image: linear-gradient(to right, #1b2a56 0%, #0c1234,rgb(88, 49, 49) 100%) 1;
     transition-duration: .3s;
     z-index: 99;
 }
@@ -146,7 +147,7 @@ and (max-device-width : 1300px) {
         height: 55vh;
         width: 45vw;
         background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728906228/netflixBgWithoutText.jpg);
-        background-size: max(620px, 45.5vw);
+        background-size: max(710px, 45.5vw);
         background-position: center center;
         background-repeat: no-repeat;
         transition-duration: .3s;
@@ -162,7 +163,7 @@ and (max-device-width : 1300px) {
         height: 55vh;
         width: 45vw;
         background-image: url(https://res.cloudinary.com/dfew9we6n/image/upload/v1728906228/netflixBgWithoutText.jpg);
-        background-size: max(620px, 45.5vw);
+        background-size: max(710px, 45.5vw);
         background-position: center center;
         background-repeat: no-repeat;
         transition-duration: .3s;

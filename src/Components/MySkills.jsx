@@ -1,5 +1,5 @@
 import React from 'react'
-import "./MySkills.css"
+import "./Myskills.css"
 import SkillGraph from './SkillGraph'
 import { useRef } from 'react'
 
