@@ -14,19 +14,19 @@ const Footer = () => {
             
             <span className="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim molestiae delectus maiores, magni dicta, repellendus impedit sapiente cumque dolor, excepturi praesentium atque possimus.</span>
             <span className="footer-social-media">
-            <a href="">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268312/portfolioFiles/voobthlxsioxvowhnqaa.png" alt="fbIcon" />
+            <a href="https://www.facebook.com/profile.php?id=61550345747435" target="_blank">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268312/portfolioFiles/fbIcon.png" alt="fbIcon" />
               </a>
 
-              <a href="">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268576/portfolioFiles/linkedInicon.png" alt="linkedInIcon" />
+              <a href="https://www.linkedin.com/in/narugupta/" target="_blank">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268576/portfolioFiles/linkedInicon.png" alt="linkedInIcon" />
               </a>
 
-              <a href="">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268639/portfolioFiles/igIcon.png" alt="igIcon" />
+              <a href="https://www.instagram.com/naren.drah/" target="_blank">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268639/portfolioFiles/igIcon.png" alt="igIcon" />
               </a>
 
-              <a href="">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268722/portfolioFiles/twitterIcon.png" alt="xIcon" />
+              <a href="https://x.com/naren_drah" target="_blank">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268722/portfolioFiles/twitterIcon.png" alt="xIcon" />
               </a>
 
-              <a href="">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729333772/portfolioFiles/mailLogo.png" alt="mailIcon" />
+              <a href="mailto:narugupta01@gmail.com?subject=Inquiry" target="_blank">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729333772/portfolioFiles/mailLogo.png" alt="mailIcon" />
               </a>
                 
             </span>

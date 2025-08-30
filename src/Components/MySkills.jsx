@@ -26,10 +26,10 @@ const MySkills = () => {
 
       <div className="skill-graph-container">
       <SkillGraph title = "HTML" skillPercentage = "80%" backColor = "green"/>
-      <SkillGraph title = "CSS" skillPercentage = "75%" backColor = "blue"/>
-      <SkillGraph title = "JavaScript" skillPercentage = "65%" backColor = "black"/>
-      <SkillGraph title = "C/C++" skillPercentage = "70%" backColor = "yellow"/>
-      <SkillGraph title = "DSA" skillPercentage = "50%" backColor = "red"/>
+      <SkillGraph title = "CSS" skillPercentage = "80%" backColor = "blue"/>
+      <SkillGraph title = "JavaScript" skillPercentage = "80%" backColor = "black"/>
+      <SkillGraph title = "C/C++" skillPercentage = "90%" backColor = "yellow"/>
+      <SkillGraph title = "DSA" skillPercentage = "80%" backColor = "red"/>
       </div>
       </div>
     </div>
