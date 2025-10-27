@@ -57,7 +57,20 @@ const Header = () => {
                 
             </span>
 
-        <button className="download-resume">Resume</button>
+<button
+  className="download-resume"
+  onClick={() =>
+    window.open(
+      "https://drive.google.com/file/d/1xI8QBw8u6HY9E8d83r_hYoA4rqkuoDSm/view?usp=drive_link",
+      "_blank",
+      "noopener,noreferrer"
+    )
+  }
+>
+  Resume
+</button>
+
+
     </div>
 
     <div className="my-photo">

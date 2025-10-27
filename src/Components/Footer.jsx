@@ -12,7 +12,7 @@ const Footer = () => {
                 GET IN TOUCH
             </span>
             
-            <span className="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim molestiae delectus maiores, magni dicta, repellendus impedit sapiente cumque dolor, excepturi praesentium atque possimus.</span>
+            <span className="footer-text">I’m always open to discussing new opportunities, collaborations, or exciting project ideas. Whether you’re looking to build something innovative or just want to connect, feel free to reach out — I’d love to chat and see how we can work together.</span>
             <span className="footer-social-media">
             <a href="https://www.facebook.com/profile.php?id=61550345747435" target="_blank">  <img src="https://res.cloudinary.com/dfew9we6n/image/upload/v1729268312/portfolioFiles/fbIcon.png" alt="fbIcon" />
               </a>
